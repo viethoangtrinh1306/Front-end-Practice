@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lexend+Deca&family=Montserrat&display=swap");
+.main {
+  background-color: #1d1939;
+  overflow: hidden;
+  color: white;
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  flex: 0 1 auto;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.left-header span {
+  color: hsl(277, 64%, 61%);
+}
+.left-container {
+  padding-left: 60px;
+  padding-right: 70px;
+}
+.left-content {
+  width: 85%;
+}
+.content-top {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: start;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.content-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.box h3 {
+  margin-bottom: 5px;
+}
+.box p {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+}
+.right {
+  background-color: hsl(277, 64%, 61%);
+  flex: 1;
+}
+.right img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}

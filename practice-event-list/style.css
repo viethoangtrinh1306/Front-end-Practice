@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lexend+Deca&family=Merriweather&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #e5e5e5;
+  width: 1600px;
+  height: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  padding: 40px;
+}
+.container h1 {
+  font-size: 2.25rem;
+  font-weight: 900;
+  line-height: 2.828125rem;
+}
+.list-item {
+  margin-top: 10px;
+}
+.item {
+  background-color: white;
+  margin: 10px 0px;
+  width: 1047px;
+  height: 173px;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+}
+
+.item-date {
+  background-color: #eceff8;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 152px;
+  height: 133px;
+  text-align: center;
+}
+.item-date h3 {
+  margin-top: 15px;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.item-date p {
+  font-size: 2.25rem;
+}
+.item-content {
+  margin-left: 33px;
+  margin-right: 50px;
+  align-self: center;
+}
+.item-content h2 {
+  font-weight: 900;
+  font-size: 1.625rem;
+  padding-bottom: 14px;
+}
+.item-content p {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+}
